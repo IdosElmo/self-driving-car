@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "../../../self-driving-car"
+		},
+		{
+			"path": "../../app"
+		},
+		{
+			"path": ".."
+		}
+	],
+	"settings": {}
+}

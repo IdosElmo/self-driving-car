@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Self driving car - JS AI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <canvas id="gameCanvas"></canvas>
+    <div id="verticalButtons">
+        <button onclick="save()">💾</button>
+        <button onclick="discard()">🗑️</button>
+    </div>
+    <canvas id="networkCanvas"></canvas>
+    <!-- util functions-->
+    <script src="../src/utils/utils.js"></script>
+    <!-- AI -->
+    <script src="../src/ai/Network.js"></script>
+    <script src="../src/ai/Visualizer.js"></script>
+    <!-- Road -->
+    <script src="../src/road/Road.js"></script>
+    <!-- Car -->
+    <script src="../src/car/Sensor.js"></script>
+    <script src="../src/car/Controls.js"></script>
+    <script src="../src/car/Car.js"></script>
+
+    <script src="./index.js"></script>
+
+</body>
+</html>
